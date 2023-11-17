@@ -1,0 +1,38 @@
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+/* Generics */
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+
+/* Nav */
+
+nav{
+    background-color: aqua;
+    padding: 10px;
+}
+
+
+.nav{
+    flex-basis: 50%;
+    background-color: yellow;
+    border: 1px dashed black;
+    min-height: 1.5rem;
+    
+}
+
+.side-nav{
+    flex-basis: 25%;
+    background-color: yellow;
+    border: 1px dashed black;
+}
+
