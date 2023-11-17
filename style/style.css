@@ -12,6 +12,7 @@
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
+    justify-content: center;
 }
 
 /* Nav */
@@ -36,3 +37,16 @@ nav{
     border: 1px dashed black;
 }
 
+/* Header */
+
+header{
+    background-color: blue;
+    padding: 20px;
+}
+
+.main-header{
+    flex-basis: 70%;
+    background-color: fuchsia;
+    border: 1px dashed black;
+    min-height: 250px;
+}
