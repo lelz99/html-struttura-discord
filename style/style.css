@@ -15,8 +15,28 @@
     justify-content: center;
 }
 
+div > div {
+    border: 2px dashed black;
+}
+
 section{
     padding: 20px;
+}
+
+footer{
+    background-color: black;
+    padding: 10px;
+}
+
+/* Utils */
+
+.bg-lightgrey{
+    background-color: lightgrey;
+}
+
+.breakline{
+    border: 1px solid white;
+    margin-top: 25px;
 }
 
 /* Nav */
@@ -28,7 +48,6 @@ nav{
 
 .button{
     flex-basis: 5%;
-    border: 2px dashed black;
     background-color: salmon;
     padding: 10px;
 }
@@ -36,7 +55,6 @@ nav{
 .center-nav{
     flex-basis: 50%;
     background-color: goldenrod;
-    border: 2px dashed black;
     min-height: 1.5rem;
     
 }
@@ -44,7 +62,6 @@ nav{
 .side-nav{
     flex-basis: 25%;
     background-color: goldenrod;
-    border: 2px dashed black;
 }
 
 /* Header */
@@ -57,77 +74,56 @@ header{
 .main-header{
     flex-basis: 70%;
     background-color: fuchsia;
-    border: 2px dashed black;
     min-height: 250px;
 }
 
 /* Main */
 
-.bg-lightgrey{
-    background-color: lightgrey;}
-
-.dodgerblue{
+.large-box{
     flex-basis: 70%;
     background-color: dodgerblue;
-    border: 2px dashed black;
     min-height: 250px;
 }
 
-.pink{
+.small-box{
     flex-basis: 30%;
     background-color: pink;
-    border: 2px dashed black;
     min-height: 300px;
 }
 
 .square-green{
     flex-basis: 100%;
     background-color: green;
-    border: 2px dashed black;
     min-height: 1000px;
 }
 
-/* Footer */
-
-footer{
-    background-color: black;
-    padding: 10px;
-}
+/* Primary Footer */
 
 .left-footer{
-    flex-basis: 30%;
-    min-height: 300px;
+    flex-basis: 25%;
+    min-height: 400px;
     background-color: lightsalmon;
-    border: 2px dashed black;
 }
 
 .right-footer{
-    flex-basis: 70%;
-    min-height: 300px;
+    flex-basis: 75%;
+    min-height: 400px;
     background-color: lightskyblue;
-    border: 2px dashed black;
     display: flex;
 }
 
 .col{
-    flex-basis: 70%;
-    min-height: 300px;
+    flex-basis: 75%;
+    min-height: 400px;
     background-color: lightskyblue;
     border: 2px dashed white;
-    display: flex;
 }
 
-.breakline{
-    border: 1px solid white;
-    margin: 20px 0 10px 0;
-}
+/* Secondary Footer */
 
-/* Bottom Footer */
-
-.bottom-footer{
+.secondary-footer{
     flex-basis: 100%;
     background-color: aqua;
-    border: 2px dashed black;
     min-height: 1.5rem;
     display: flex;
     justify-content: space-between;
