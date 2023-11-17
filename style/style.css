@@ -15,6 +15,10 @@
     justify-content: center;
 }
 
+section{
+    padding: 20px;
+}
+
 /* Nav */
 
 nav{
@@ -25,7 +29,7 @@ nav{
 
 .nav{
     flex-basis: 50%;
-    background-color: yellow;
+    background-color: goldenrod;
     border: 1px dashed black;
     min-height: 1.5rem;
     
@@ -33,7 +37,7 @@ nav{
 
 .side-nav{
     flex-basis: 25%;
-    background-color: yellow;
+    background-color: goldenrod;
     border: 1px dashed black;
 }
 
@@ -50,3 +54,31 @@ header{
     border: 1px dashed black;
     min-height: 250px;
 }
+
+/* Main */
+
+.bg-lightgrey{
+    background-color: lightgrey;}
+
+.dodgerblue{
+    flex-basis: 70%;
+    background-color: dodgerblue;
+    border: 1px dashed black;
+    min-height: 250px;
+}
+
+.pink{
+    flex-basis: 30%;
+    background-color: pink;
+    border: 1px dashed black;
+    min-height: 300px;
+}
+
+.square-green{
+    flex-basis: 100%;
+    background-color: green;
+    border: 1px dashed black;
+    min-height: 1000px;
+}
+
+/* Footer */
